@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri Ramesh Gunwant's Portfolio</title>
+
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        header {
+            background-color: #3498db; /* Blue */
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header div {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        header i {
+            cursor: pointer;
+            margin-top: 10px; /* Adjust the margin as needed */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        h2 {
+            color: #3498db; /* Blue */
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: blue; /* Change to blue */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
+            margin-right: 5px;
+        }
+
+        .project,
+        .strengths {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: #3498db; /* Blue */
+        }
+
+        .project ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #3498db; /* Blue */
+            color: #fff;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        /* Dark mode section style */
+        #dark-mode-section {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Dark mode icon style */
+        #dark-mode-icon {
+            cursor: pointer;
+            color: #000; /* Black on page load */
+        }
+
+        #dark-mode-icon.white {
+            color: #fff; /* White in dark mode */
+        }
+
+        #dark-mode-icon.black {
+            color: #000; /* Black in light mode */
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            body {
+                margin: 10px;
+            }
+
+            header {
+                padding: 15px 0;
+            }
+
+            section {
+                margin: 15px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Gauri Ramesh Gunwant <i id="dark-mode-icon" class="icon fas fa-moon" onclick="toggleDarkMode()"></i> </h1>
+            <p>Computer Engineering Student</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>A/P-Shevgaon, Tal-Shevgaon, Dist-Ahmednagar</p>
+        <p>📅 Date of Birth: 22/08/2001</p>
+        <p>📞 Phone: 9049379028</p>
+        <p>📧 Email: <a href="mailto:gaurigunwat2018@gmail.com">gaurigunwat2018@gmail.com</a></p>
+        <p>💼 LinkedIn: <a href="LinkedIn-Profile-Link" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>Work for an organization that provides me with the opportunity to improve my skills and knowledge to grow along with the organization's objectives.</p>
+    </section>
+
+    <section>
+        <h2>Educational Qualification</h2>
+        <p>Bachelor of Engineering (BE) in Computer Engineering</p>
+        <p>Amrutvahini College of Engineering, Sangamner (SGPA)</p>
+    </section>
+
+    <section>
+        <h2>Internship</h2>
+        <ul>
+            <li>1 Month internship as "Tathastu DSA Scholar Intern" at TwoWaits Technologies Pvt. Ltd</li>
+            <li>
+                I have completed this internship as our college conducts an internship program. I have studied various problem-solving approaches and made beautiful websites in this internship.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Workshop Attended</h2>
+        <ul>
+            <li>One Day workshop on "Tathastu Google Firebase" conducted by TwoWaits Technologies</li>
+            <li>
+                I attended this workshop to learn the industry needs and to learn how I can become industry-ready.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <p>Marathi, Hindi, English</p>
+    </section>
+
+    <section>
+        <h2>Software Skills</h2>
+        <ul>
+            <li>Programming Languages: C, C++, Python</li>
+            <li>Familiar With: OOPS, Data Structure</li>
+            <li>Operating System: Linux (Ubuntu), Windows-11</li>
+            <li>IDE known: Visual Studio Code, Eclipse, PyCharm</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Project</h2>
+        <div class="project">
+            <h3>Tomato Leaf Disease Detection using Deep Learning</h3>
+            <p>
+                Taking different types of tomato leaves for study, scanning different types of tomato leaves, and detecting the disease using neural network and image segmentation.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Strengths</h2>
+        <ul>
+            <li>Positive Attitude</li>
+            <li>Quick Learner</li>
+            <li>Good at Teamwork</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobbies</h2>
+        <p>Planting and Gardening, Traveling, Driving, Listening to Music</p>
+    </section>
+
+    <section>
+        <h2>Date</h2>
+        <p>[Current Date]</p>
+    </section>
+
+    <section>
+        <h2>Place</h2>
+        <p>Sangamner</p>
+    </section>
+
+    <section id="dark-mode-section">
+        <!-- Dark mode icon -->
+        <i id="dark-mode-icon" class="icon fas fa-moon" onclick="toggleDarkMode()"></i>
+        <p>Toggle Dark Mode</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Gauri Ramesh Gunwant
+    </footer>
+
+    <script>
+        // JavaScript to toggle dark mode
+        function toggleDarkMode() {
+            const body = document.body;
+            const darkModeIcon = document.getElementById("dark-mode-icon");
+
+            body.classList.toggle("dark-mode");
+            darkModeIcon.classList.toggle("white", body.classList.contains("dark-mode"));
+            darkModeIcon.classList.toggle("black", !body.classList.contains("dark-mode"));
+        }
+
+        // JavaScript to set initial dark mode icon color
+        document.addEventListener("DOMContentLoaded", function () {
+            const body = document.body;
+            const darkModeIcon = document.getElementById("dark-mode-icon");
+
+            darkModeIcon.classList.toggle("black", !body.classList.contains("dark-mode"));
+        });
+    </script>
+</body>
+
+</html>
